@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Vente voitures</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>AutoVente - Voitures d'exception</title>
+    
+    <!-- Liaison CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bienvenue sur mon site</h1>
-    <p>Photos et vidéos de mes voitures bientôt disponibles</p>
+
+<header class="header">
+    <h1>🏎️ AutoVente</h1>
+    <p>Photos, vidéos et offres exclusives – Voitures de prestige</p>
+</header>
+
+<div class="container">
+    <!-- Section vidéo -->
+    <div class="video-section">
+        <h2>📹 Découvrez nos bolides en action</h2>
+        <div class="video-wrapper">
+            <!-- Remplace l'ID de la vidéo YouTube par la tienne -->
+            <iframe 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Voiture en démonstration"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p style="margin-top: 0.8rem; font-style: italic;">🔧 Remplace l'ID YouTube par ta propre vidéo (hébergée gratuitement sur YouTube).</p>
+    </div>
+
+    <!-- Grille des voitures -->
+    <h2 style="margin-bottom: 1.5rem;">✨ Nos annonces</h2>
+    <div class="cars-grid" id="carsGrid">
+        <!-- Les voitures seront injectées ici dynamiquement via JS -->
+    </div>
+</div>
+
+<footer>
+    <p>📞 Contact : 06 12 34 56 78 | ✉️ contact@autovente.fr</p>
+    <p style="font-size: 0.8rem; margin-top: 0.5rem;">AutoVente - Vente de véhicules d'exception</p>
+</footer>
+
+<!-- Modal pour agrandir les photos -->
+<div id="imageModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img id="modalImage" src="" alt="Agrandissement">
+</div>
+
+<!-- Liaison JavaScript (toujours à la fin du body) -->
+<script src="script.js"></script>
 </body>
 </html>
