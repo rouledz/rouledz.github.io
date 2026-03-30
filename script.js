@@ -110,7 +110,7 @@ function renderCars() {
         const btn = document.createElement('a');
         btn.href = `mailto:contact@autovente.fr?subject=Demande pour ${car.title}&body=Bonjour, je suis intéressé par ${car.title} (prix ${car.price.toLocaleString('fr-FR')}€). Merci de me contacter.`;
         btn.className = 'btn-contact';
-        btn.textContent = '📩 Demander un rendez-vous';
+        btn.textContent = '📩 Commamder ou Reserver';
 
         infoDiv.appendChild(title);
         infoDiv.appendChild(price);
