@@ -1,0 +1,5 @@
+rouledz/
+│
+├── index.html      (structure)
+├── style.css       (styles)
+└── script.js       (interactions)
