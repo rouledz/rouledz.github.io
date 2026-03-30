@@ -4,7 +4,7 @@ const cars = [
         id: 1,
         title: "Porsche 911 Carrera",
         price: 89900,
-        description: "Année 2021, 25 000 km, boîte automatique, cuir noir, jantes alu 20\".",
+        description: "Année 2021, 25 000 km, boîte auto, cuir noir.",
         image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
         alt: "Porsche 911"
     },
@@ -12,7 +12,7 @@ const cars = [
         id: 2,
         title: "Mercedes Classe C AMG",
         price: 54900,
-        description: "Berline sportive, 30 000 km, full options, sièges chauffants.",
+        description: "Berline sportive, 30 000 km, full options.",
         image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&h=400&fit=crop",
         alt: "Mercedes AMG"
     },
@@ -20,9 +20,57 @@ const cars = [
         id: 3,
         title: "BMW Série 3 M Sport",
         price: 42900,
-        description: "Diesel, 40 000 km, très bon état, entretien suivi.",
+        description: "Diesel, 40 000 km, très bon état.",
         image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop",
         alt: "BMW Série 3"
+    },
+    {
+        id: 4,
+        title: "Audi RS6 Avant",
+        price: 112000,
+        description: "Break sportif, V8 biturbo, 600ch.",
+        image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop",
+        alt: "Audi RS6"
+    },
+    {
+        id: 5,
+        title: "Ferrari F8 Tributo",
+        price: 215000,
+        description: "710ch, 15 000 km, Italienne d'exception.",
+        image: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=600&h=400&fit=crop",
+        alt: "Ferrari F8"
+    },
+    {
+        id: 6,
+        title: "Lamborghini Huracan",
+        price: 189000,
+        description: "V10 640ch, 20 000 km, historique.",
+        image: "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=600&h=400&fit=crop",
+        alt: "Lamborghini Huracan"
+    },
+    {
+        id: 7,
+        title: "Tesla Model S Plaid",
+        price: 119900,
+        description: "Électrique, 1020ch, autopilot inclus.",
+        image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&h=400&fit=crop",
+        alt: "Tesla Model S"
+    },
+    {
+        id: 8,
+        title: "Ford Mustang GT",
+        price: 55900,
+        description: "V8 450ch, 35 000 km, Americaine.",
+        image: "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?w=600&h=400&fit=crop",
+        alt: "Ford Mustang"
+    },
+    {
+        id: 9,
+        title: "Renault Megane RS",
+        price: 35900,
+        description: "300ch, 28 000 km, sportive française.",
+        image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&h=400&fit=crop",
+        alt: "Renault RS"
     }
 ];
 
