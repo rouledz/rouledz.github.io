@@ -12,29 +12,14 @@
 
 <header class="header">
     <h1>🏎️ AutoVente</h1>
-    <p>Photos, vidéos et offres exclusives – Voitures de prestige</p>
+    <p>Photos et offres exclusives – Voitures de prestige</p>
 </header>
 
 <div class="container">
-    <!-- Section vidéo -->
-    <div class="video-section">
-        <h2>📹 Découvrez nos bolides en action</h2>
-        <div class="video-wrapper">
-            <!-- Remplace l'ID de la vidéo YouTube par la tienne -->
-            <iframe 
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="Voiture en démonstration"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-        <p style="margin-top: 0.8rem; font-style: italic;">🔧 Remplace l'ID YouTube par ta propre vidéo (hébergée gratuitement sur YouTube).</p>
-    </div>
-
-    <!-- Grille des voitures -->
+    <!-- Grille des voitures : 3 rangées de 3 = 9 vignettes -->
     <h2 style="margin-bottom: 1.5rem;">✨ Nos annonces</h2>
     <div class="cars-grid" id="carsGrid">
-        <!-- Les voitures seront injectées ici dynamiquement via JS -->
+        <!-- Les 9 voitures seront injectées ici dynamiquement via JS -->
     </div>
 </div>
 
@@ -49,7 +34,7 @@
     <img id="modalImage" src="" alt="Agrandissement">
 </div>
 
-<!-- Liaison JavaScript (toujours à la fin du body) -->
+<!-- Liaison JavaScript -->
 <script src="script.js"></script>
 </body>
 </html>
